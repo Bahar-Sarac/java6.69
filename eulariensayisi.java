@@ -6,7 +6,7 @@ import java.util.Scanner;
  *
  * @author Bahar
  */
-public class homework108 {
+public class eulariensayisi {
 
     /**
      * @param args the command line arguments
@@ -18,16 +18,16 @@ public class homework108 {
         int m = input.nextInt();
         System.out.print("n değerini giriniz: ");
         int n = input.nextInt();
-        double t = Math.pow ((n+1),m);
+        double toplam = Math.pow ((n+1), m);
         
         for (int i = 1; i <= n; i++) {
             int f1 = 1;
             int f2 = 1;
             int f3 =1;
             double c = f1 / (f2 * f3);
-            t += Math.pow((-1), i) * c * Math.pow((n+1-i),m);
+            toplam += Math.pow((-1), i) * c * Math.pow((n+1-i),m);
         }
-        System.out.println("Eulerian sayısı: "+t);
+        System.out.println("Eulerian sayısı: "+toplam);
     }
     
 }

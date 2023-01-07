@@ -6,7 +6,7 @@ import java.util.Scanner;
  *
  * @author Bahar
  */
-public class homework081 {
+public class kokuchesaplama {
 
     /**
      * @param args the command line arguments
@@ -15,10 +15,10 @@ public class homework081 {
         Scanner input = new Scanner (System.in);
         
         System.out.print("Bölüm değeri giriniz: ");
-        int bolum = input.nextInt();
+        int n = input.nextInt();
         double t =1;
         
-        for (int i = 1; i < bolum-1; i++) {
+        for (int i = 1; i < n-1; i++) {
             t = 1 + 1 / (2+1/t);
         }
        System.out.println("Sonuç = " +(1+1/t));

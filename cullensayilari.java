@@ -15,7 +15,7 @@ public class cullensayilari {
         Scanner input = new Scanner(System.in);
         
         int x = 0;
-        System.out.print("Terim sayısı: ");
+        System.out.print("Terim sayısı giriniz: ");
         int n = input.nextInt();
                          
         System.out.println("Cullen sayıları: "); 

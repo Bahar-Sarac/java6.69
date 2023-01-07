@@ -4,7 +4,7 @@ import java.util.Scanner;
  *
  * @author Bahar
  */
-public class homework103 {
+public class oresayisi {
 
     /**
      * @param args the command line arguments
@@ -14,16 +14,16 @@ public class homework103 {
         
         System.out.print("Pozitif tam sayı giriniz: ");
         int sayi = input.nextInt();
-        int s = 0;
+        int sayac = 0;
         int t = 0;
         
         for (int i = 1; i <= sayi; i++) {
             if(sayi % i == 0){
-                s ++ ;
+                sayac++ ;
                 t+= 1 / i ;
             }
         }
-        int h = s / t;
+        int h = sayac / t;
         if(h == Math.round(h)){
             System.out.println("Ore sayısıdır. ");
         }

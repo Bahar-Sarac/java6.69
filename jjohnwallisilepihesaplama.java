@@ -6,7 +6,7 @@ import java.util.Scanner;
  *
  * @author Bahar
  */
-public class homework078 {
+public class johnwallisilepihesaplma {
 
     /**
      * @param args the command line arguments
@@ -15,14 +15,14 @@ public class homework078 {
         Scanner input = new Scanner (System.in);
         
         System.out.print("Terim sayısı giriniz: ");
-        int terim = input.nextInt();
-        double c = 1;
+        int n = input.nextInt();
+        double k = 1;
         
         for (int i = 1; i < terim; i++) {
-            double c1 = 4*i*i;
-            c *= c1 / (c1-1);
+            double k1 = 4*i*i;
+            k *= k1 / (k1-1);
         }
-        System.out.println("Sonuç: "+(2*c));
+        System.out.println("Sonuç: "+(2*k));
     }
     
 }

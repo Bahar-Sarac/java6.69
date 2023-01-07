@@ -6,7 +6,7 @@ import java.util.Scanner;
  *
  * @author Bahar
  */
-public class homework086 {
+public class asalsayilisteleme {
 
     /**
      * @param args the command line arguments
@@ -18,11 +18,11 @@ public class homework086 {
         int n = input.nextInt();
         
         for (int i = 2; i <= n; i++) {
-            int s = 0;
+            int sayi = 0;
             for (int j = 1; j <= i; j++) 
                 if(i % j == 0)
-                s += 1;
-                if(s==2)
+                sayi += 1;
+                if(sayi==2)
                     System.out.println("Asal sayılar: "+i);   
             }
         }

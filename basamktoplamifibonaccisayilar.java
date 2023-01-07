@@ -18,7 +18,7 @@ public class basamaktoplamifibonaccisayilar {
             for (int j = 0; j <= 9; j++) {
                 int s = i+j;
                 if ((s==1) || (s==2) || (s==3) || (s==5) || (s==8) || (s==13)) {
-                    System.out.println("Basamklar toplamı fibonacci olan sayılar:"+(10*i+j));
+                    System.out.println("Basamaklar toplamı fibonacci olan sayılar:"+(10*i+j));
                 }
             }
         }

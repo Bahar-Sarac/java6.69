@@ -14,16 +14,17 @@ public class homework095 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         
-        int a;
+        int n;
         System.out.print("x: ");
         int x = input.nextInt();
         System.out.print("y: ");
         int y = input.nextInt();
+     
         System.out.println("Leynad sayıları: "); 
         for (int i = 2; i < x; i++) {
             for (int j = 2; j < y; j++) {
                 a = (int) (Math.pow(i, j)+Math.pow(j, i));
-                 System.out.println(+a);    
+                 System.out.println(+n);    
             }
         }
     }

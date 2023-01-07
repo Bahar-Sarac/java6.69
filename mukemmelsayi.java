@@ -2,7 +2,6 @@
 import java.util.Scanner;
 
 
-
 /**
  *
  * @author Bahar

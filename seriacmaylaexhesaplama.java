@@ -4,7 +4,7 @@ import java.util.Scanner;
  *
  * @author Bahar
  */
-public class exhesaplama {
+public class seriacmaylaexhesaplama {
 
     /**
      * @param args the command line arguments

@@ -4,7 +4,7 @@ import java.util.Scanner;
  *
  * @author Bahar
  */
-public class homework074 {
+public class exhesaplama {
 
     /**
      * @param args the command line arguments
@@ -15,13 +15,13 @@ public class homework074 {
         System.out.print("Sayı giriniz: ");
         int sayi = input.nextInt();
         System.out.print("Terim sayısını giriniz: ");
-        int terim = input.nextInt();
+        int n = input.nextInt();
         double t = 1;
-        double F = 1;
+        double f = 1;
         
-        for (int i = 1; i < terim-1; i++) {
-            F = F*1;
-            t += Math.pow(sayi,i) / F;
+        for (int i = 1; i < n-1; i++) {
+            f = f*1;
+            t += Math.pow(sayi,i) / f;
         }
         System.out.println("e^x = "+t);
     }

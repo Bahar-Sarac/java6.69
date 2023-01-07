@@ -15,10 +15,10 @@ public class kokikihesaplama {
         Scanner input = new Scanner (System.in);
         
         System.out.print("Bölüm değeri giriniz: ");
-        int n = input.nextInt();
+        int bolum = input.nextInt();
         double t = 1;
         
-        for (int i = 1; i < n; i++) {
+        for (int i = 1; i < bolum; i++) {
             t = 2 + 1 / t;
         }
        System.out.println("Sonuç = " +1*1/t);

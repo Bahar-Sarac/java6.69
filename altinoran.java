@@ -14,16 +14,16 @@ public class altinoran {
     public static void main(String[] args) {
          Scanner input = new Scanner (System.in);
          
-         double ab;
-         double cb;
-         double ac;
+         double xy;
+         double zy;
+         double xz;
         
          System.out.print("Doğru parçasının uzunluğunu giriniz: ");
-         ab = input.nextDouble();
-         cb = 2 * ab / (1+Math.pow(5, 0.5));
-         ac = ab - cb;
-         System.out.println("Altın oran "+ac);
-         System.out.println("Altın oran "+cb);
+         xy = input.nextDouble();
+         zy = 2 * xy / (1 + Math.pow(5, 0.5));
+         xz = xy - zy;
+         System.out.println("Altın oran "+xz);
+         System.out.println("Altın oran "+zy);
          
         
     }

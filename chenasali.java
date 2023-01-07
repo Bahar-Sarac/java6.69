@@ -7,7 +7,7 @@ import java.util.Scanner;
  *
  * @author Bahar
  */
-public class homework089 {
+public class chenasali {
 
     /**
      * @param args the command line arguments
@@ -19,28 +19,29 @@ public class homework089 {
         int s1 = 0;
         int s2 = 0;
         int n;
+        
         while(true){
-            System.out.print("Tamsayı giriniz: ");
+            System.out.print("Bir tamsayı giriniz: ");
             n = input.nextInt();
             if(n > 0){
                 break;
             }
         }
         for (int i = 2; i < n; i++) {
-            if(n%i == 0){
+            if(n % i == 0){
                 s1++;
                 break;
             }
-            if((n+2)%i == 0){
+            if((n+2) % i == 0){
                 s2++;
                 break;
             }
         }
         if(s1==0 && s2==0 && n!=2 && n!=1 && n!=0){
-            System.out.print("Sayınız chen asalıdır.");
+            System.out.print("Chen asalıdır. ");
         }
         else{
-            System.out.println("Sayınız chen asalı değildir.");
+            System.out.println("Chen asalı değildir. ");
         }
          
               

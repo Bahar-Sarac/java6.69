@@ -6,7 +6,7 @@ import java.util.Scanner;
  *
  * @author Bahar
  */
-public class homework112 {
+public class basamaktoplamifibonaccisayilar {
 
     /**
      * @param args the command line arguments
@@ -18,7 +18,7 @@ public class homework112 {
             for (int j = 0; j <= 9; j++) {
                 int s = i+j;
                 if ((s==1) || (s==2) || (s==3) || (s==5) || (s==8) || (s==13)) {
-                    System.out.println(10*i+j);
+                    System.out.println("Basamklar toplamı fibonacci olan sayılar:"+(10*i+j));
                 }
             }
         }

@@ -6,7 +6,7 @@ import java.util.Scanner;
  *
  * @author Bahar
  */
-public class homework084 {
+public class altinucgen {
 
     /**
      * @param args the command line arguments
@@ -18,9 +18,9 @@ public class homework084 {
         double k = input.nextDouble();
         double b = k * (1+ Math.sqrt(5)) / 2;
         
-        System.out.println("Kısa kenar uzunluğu : "+k);
-        System.out.println("Birinci uzun kenar uzunluğu : "+b);
-        System.out.println("İkinci uzun kenar uzunluğu : "+b);
+        System.out.println("Kısa kenar : "+k);
+        System.out.println("Birinci uzun kenar : "+b);
+        System.out.println("İkinci uzun kenar : "+b);
                 
         
     }

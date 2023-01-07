@@ -6,7 +6,7 @@ import java.util.Scanner;
  *
  * @author Bahar
  */
-public class homework096 {
+public class hilbertsayilari {
 
     /**
      * @param args the command line arguments
@@ -16,11 +16,12 @@ public class homework096 {
         
         System.out.print("Pozitif tamsayı giriniz:");
         int s = input.nextInt();
-        if ((s-1)%4 == 0) {
-            System.out.println(s+" Hilbert sayısıdır");
+        
+        if ((s-1) % 4 == 0) {
+            System.out.println(s+" hilbert sayısıdır");
         }
-        else if ((s-1)%4 != 0) {
-            System.out.println(s+" Hilbert sayısı değildir");
+        else if ((s-1) % 4 != 0) {
+            System.out.println(s+" hilbert sayısı değildir");
         }
     }
     

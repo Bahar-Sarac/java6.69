@@ -1,0 +1,28 @@
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author Bahar
+ */
+public class floyducgeni {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Satır sayısı giriniz:");
+        int n = input.nextInt();
+        int sayac = 1;
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print(sayac+" ");
+                sayac += sayac;
+            }
+            System.out.println(" ");
+        }
+    }
+
+}

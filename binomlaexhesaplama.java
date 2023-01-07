@@ -4,7 +4,7 @@ import java.util.Scanner;
  *
  * @author Bahar
  */
-public class homework075 {
+public class binomlaexhesaplama {
 
     /**
      * @param args the command line arguments
@@ -15,8 +15,8 @@ public class homework075 {
       System.out.print("Sayı giriniz: ");
       int sayi = input.nextInt();
       System.out.print("Terim sayısını giriniz: ");
-      int terim = input.nextInt();
-      double sonuc = (double) Math.pow(1+sayi/terim , terim);
+      int n = input.nextInt();
+      double sonuc = (double) Math.pow(1+sayi/n , n);
       System.out.println("Sonuç: "+sonuc);
     }
     

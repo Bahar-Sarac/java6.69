@@ -6,7 +6,7 @@ import java.util.Scanner;
  *
  * @author Bahar
  */ 
-public class homework083 {
+public class altinoran {
 
     /**
      * @param args the command line arguments
@@ -21,7 +21,7 @@ public class homework083 {
          System.out.print("Doğru parçasının uzunluğunu giriniz: ");
          ab = input.nextDouble();
          cb = 2 * ab / (1+Math.pow(5, 0.5));
-         ac = ab-cb;
+         ac = ab - cb;
          System.out.println("Altın oran "+ac);
          System.out.println("Altın oran "+cb);
          

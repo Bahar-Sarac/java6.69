@@ -6,7 +6,7 @@ import java.util.Scanner;
  *
  * @author Bahar
  */
-public class homework087 {
+public class ikibasamakliasallar {
 
     /**
      * @param args the command line arguments
@@ -14,7 +14,7 @@ public class homework087 {
     public static void main(String[] args) {
         Scanner input = new Scanner (System.in);
         
-        System.out.print("İki basamağı da asal sayı olanlar: ");
+        System.out.print("İki basamağı da asal sayı olan sayılar: ");
         for (int i = 2; i <= 7; i++) {
             for (int j = 2; j <= 7; j++){
             if((i==2||i==3||i==5||i==7)&&(j==2||j==3||j==5||j==7))

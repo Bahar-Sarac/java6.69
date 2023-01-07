@@ -6,7 +6,7 @@ import java.util.Scanner;
  *
  * @author Bahar
  */
-public class homework069 {
+public class coshesaplama {
 
     /**
      * @param args the command line arguments
@@ -18,16 +18,16 @@ public class homework069 {
         double sayi = input.nextInt();
         System.out.println("Terim sayısı giriniz: ");
         int terim = input.nextInt();
-        double T = 1;
+        double t = 1;
         
         for (int i = 1; i < terim-1; i++) {
-            double F = 1;
+            double f = 1;
             for (int j = 1; j < 2*i; j++) {
-                F = F * j;
+                f = f * j;
             }
-            T += Math.pow(-1,i) * Math.pow(sayi,2*i) / F;
+            t += Math.pow(-1,i) * Math.pow(sayi,2*i) / f;
         }
-        System.out.println("Kosinüs:"+T);
+        System.out.println("Kosinüs:"+t);
     }
     
 }

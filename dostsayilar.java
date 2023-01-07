@@ -6,7 +6,7 @@ import java.util.Scanner;
  *
  * @author Bahar
  */
-public class homework097 {
+public class dostsayilar {
 
     /**
      * @param args the command line arguments
@@ -22,21 +22,21 @@ public class homework097 {
         int tb = 0;
         
         for (int i = 1; i < a-1; i++) {
-            if (a%i == 0) {
+            if (a % i == 0) {
                 ta += +i;  
             }
         }
         for (int i = 1; i < b-1; i++) {
-            if (b%i == 0) {
+            if (b % i == 0) {
                 tb += +i;
             }
         }
         if (ta==b && tb==a) {
-            System.out.println("Dost sayılardır");
+            System.out.println("Dost sayılardır.");
         }
         
         else {
-            System.out.println("Dost sayılar değillerdir");
+            System.out.println("Dost sayı değillerdir.");
         }
     }
     

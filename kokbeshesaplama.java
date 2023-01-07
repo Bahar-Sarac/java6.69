@@ -6,7 +6,7 @@ import java.util.Scanner;
  *
  * @author Bahar
  */
-public class homework082 {
+public class kokbeshesaplama {
 
     /**
      * @param args the command line arguments

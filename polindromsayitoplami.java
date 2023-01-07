@@ -6,7 +6,7 @@ import java.util.Scanner;
  *
  * @author Bahar
  */
-public class homework107 {
+public class polindromsayitoplami {
 
     /**
      * @param args the command line arguments
@@ -17,7 +17,7 @@ public class homework107 {
         System.out.print("Basamak sayısı giriniz: ");
         double basamak_sayisi = input.nextDouble();
         
-        System.out.println(9* Math.pow(10, (basamak_sayisi-1)/2 ));
+        System.out.println("Polindrom sayılar toplamı:"+(9* Math.pow(10, (basamak_sayisi-1)/2 )));
     }
     
 }

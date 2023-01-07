@@ -6,7 +6,7 @@ import java.util.Scanner;
  *
  * @author Bahar
  */
-public class homework088 {
+public class asalcarpanbuldurma {
 
     /**
      * @param args the command line arguments
@@ -14,16 +14,16 @@ public class homework088 {
     public static void main(String[] args) {
         Scanner input = new Scanner (System.in);
         
-        System.out.print("a: ");
-        int a = input.nextInt();
-        int b=2;
+        System.out.print("Pozitif tam sayı giriniz: ");
+        int n = input.nextInt();
+        int b = 2;
         
-        while(a>1){
-            if(a % b == 0){
-                a = a / b;
+        while(n>1){
+            if(n % b == 0){
+                n = n / b;
                 System.out.println(b);
             }
-            else if(a % b != 0){
+            else if(n % b != 0){
                 b += 1; 
             }
         }

@@ -2,18 +2,9 @@
 
 import java.util.Scanner;
 
-
-/**
- *
- * @author Bahar
- */
 public class chenasali {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
         Scanner input = new Scanner (System.in);
      
         int s1 = 0;

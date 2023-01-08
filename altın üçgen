@@ -1,16 +1,8 @@
 
 import java.util.Scanner;
 
-
-/**
- *
- * @author Bahar
- */
 public class altinucgen {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         Scanner input = new Scanner (System.in);
         
@@ -21,8 +13,6 @@ public class altinucgen {
         System.out.println("Kısa kenar : "+k);
         System.out.println("Birinci uzun kenar : "+b);
         System.out.println("İkinci uzun kenar : "+b);
-                
-        
     }
     
 }

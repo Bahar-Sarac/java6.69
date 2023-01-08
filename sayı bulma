@@ -1,14 +1,8 @@
 
 import java.util.Scanner;
-/**
- *
- * @author Bahar
- */
+
 public class sayibulma {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         int max = 99;
         int min = 1;
